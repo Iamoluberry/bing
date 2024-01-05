@@ -1,0 +1,338 @@
+#opacity-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;    
+}
+
+body{
+    width: 100%;
+    height: 80vh;   
+    background-image: url(img/BingWallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+
+.heading{
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 2px;
+}
+.logo{
+    position: fixed;
+    width: 120px;
+    height: 24px;
+    transform: scale(1.16);
+    filter: drop-shadow(0 0 24px rgba(0,0,0,.15));
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+#head-mid{ 
+    margin-top: 10px;
+    position: relative;
+    position: fixed;
+}
+
+#head-mid a{ 
+    text-decoration: none;
+}
+
+#head-right{ 
+    margin-top: 10px;
+    text-align: right;
+    
+}
+
+#reward-svg{
+    width: 30px;
+    height: 30px;
+}
+
+/* #bing-logo{
+    width: 154px;
+    height: 28px;
+}
+
+#sign-in-svg{
+    width: 40px;
+    height: 40px;
+}
+
+#reward-svg{
+    width: 40px;
+    height: 40px;
+}
+
+#hamburger-svg{
+    width: 40px;
+    height: 40px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    height: 5vh;
+    width: 80%;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.header-general{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+
+.header-general h3{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-content-one{
+    gap: 15px;
+    color: white;
+   margin-right: 150px;
+}
+
+.header-content-two{
+    gap: 15px;
+    color: white;
+}
+
+.alignment{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} */
+
+
+.section-1 {
+	flex: 1;
+	width: 100vw;
+}
+
+.s-box {
+	width: 40vw;
+	margin: 0px auto;
+	position: relative;
+	margin-top: -8px;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.s-box {
+		width: 80vw;
+	}
+
+  }
+
+  @media only screen and (max-width: 430px) {
+	#certified img, #certified p{
+		margin-top: 70px;
+	}
+
+  }
+
+form{
+    margin-top: 15vh;
+}
+
+.s-box .s-input {
+	display: block;
+	border: 1px solid #ddd;
+	color: black;
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 15px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+	background-color: white;
+	resize: none;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#input-svg-container{
+    display: flex;
+    justify-content: center;
+}
+
+.s-box .vs-icon {
+	width: 20px;
+	position: absolute;
+	top: 13px;
+	right: 14px;
+}
+
+.vs-icon1{
+    margin-right: 60px;
+    color: rgb(64, 118, 64);
+	position: absolute;
+	top: 13px;
+	right: 14px;
+    font-size: 20px;
+}
+
+.vs-icon2{
+    margin-right: 30px;
+}
+
+#opacity-div{
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+#arrow-container{
+    position: absolute;
+    bottom: 22.5vh;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;    
+}
+
+#arrow-container-expand{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+
+}
+
+.visibilty-btn{
+    width: 25px;
+    height: 25px;
+    
+    background-color: black;
+    border: 0;
+    height: 25px;
+    width: 25px;
+    /* background-color: rgba(48, 43, 43); */
+}
+
+#myimg{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
+
+#info-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(48, 43, 43, 0.6);
+    width: 60px;
+    height: 25px;
+    color: white;
+}
+
+#slider-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.slider {
+    
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+    cursor: pointer;
+}
+
+.is img {
+    height: 75px;
+}
+
+.slider-img {
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.slider-img img{
+    height: calc(5.5rem);
+    width: 100%;
+}
+
+.slider-img span {
+    display: block;
+    text-align: left;
+    padding-left: 12px;
+    color: #eee;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: .8125rem;
+    line-height: 1.75rem;
+    padding: 0 10px;
+    max-height: 1.75rem;
+    background-color: rgb(48, 43, 43);
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+
+.arrow img {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.arrow button {
+    height: 33px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    margin-top: 37px;
+}
